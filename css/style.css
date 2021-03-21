@@ -5,6 +5,10 @@
   --default-font-family: 'Poppins', sans-serif;
 }
 
+.photo img {
+  border-radius: 20px !important;
+}
+
 h1,
 h2,
 h3,
@@ -49,6 +53,29 @@ p {
   color: #272142;
 }
 
+.about-section {
+  padding: 160px 0;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section p {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
 .btn-branding {
   background-color: var(--branding-color);
   color: #fff;
@@ -91,5 +118,10 @@ p {
 
   .hero {
     padding: 80px 20px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
