@@ -237,6 +237,11 @@ footer .social-links a:hover {
   h4 {
     font-size: 26px;
   }
+
+  .sub-heading {
+    white-space: nowrap;
+    margin-left: -20px;
+  }
 }
 
 @media (max-width: 550px) {
@@ -249,5 +254,10 @@ footer .social-links a:hover {
 
   nav {
     padding: 10px;
+  }
+
+  .sub-heading {
+    white-space: nowrap;
+    margin-left: -20px;
   }
 }
